@@ -1,0 +1,39 @@
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .product-box {
+    width: 45%;
+    margin: 10px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .product-box.horizontal {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-box.horizontal img {
+    width: 50%;
+    margin-right: 20px;
+  }
+  
+  .product-box.vertical {
+    text-align: center;
+  }
+  
+  .product-box.vertical img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
